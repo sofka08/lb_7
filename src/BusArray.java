@@ -56,7 +56,6 @@ public class BusArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Создание массива объектов Bus (заполнение данными)
         BusArray[] buses = new BusArray[5];
         buses[0] = new BusArray("Дейцев В. С.", "А777БВ", 10, "Mercedes", 2015, 150000);
         buses[1] = new BusArray("Лисин М. А.", "В456ГД", 20, "MAN", 2018, 80000);
